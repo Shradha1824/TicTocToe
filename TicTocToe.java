@@ -11,10 +11,9 @@ public class TicTocToe {
                 System.out.println(board[1][0] + "|" + board[1][1] + "|" + boar>
                 System.out.println("-+-+-");
                 System.out.println(board[2][0] + "|" + board[2][1] + "|" + boar>
-                
-                 Scanner scanner = new Scanner(System.in);
 
-        //      System.out.println("Where would you like to play? (1-9) ");
+                Scanner scanner = new Scanner(System.in);
+
 
                 String userInput = scanner.nextLine();
 
@@ -54,7 +53,8 @@ public class TicTocToe {
 
                 showBoard(board);
                 }
-        private static void showBoard(char[][] board) {
+
+       	        private static void showBoard(char[][] board) {
                 System.out.println(board[0][0] + "|" + board[0][1] + "|" + board[0][2]);
                 System.out.println("-+-+-");
                 System.out.println(board[1][0] + "|" + board[1][1] + "|" + board[1][2]);
