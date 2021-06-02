@@ -11,7 +11,22 @@ public class TicTocToe {
                 System.out.println(board[1][0] + "|" + board[1][1] + "|" + boar>
                 System.out.println("-+-+-");
                 System.out.println(board[2][0] + "|" + board[2][1] + "|" + boar>
-                
+
+                Random random = new Random();
+                 int dice = 0;
+                 while (true)
+                 {
+                   dice = random.nextInt((2)+1);
+                if(dice != 0) break;
+                 }
+                     System.out.println("Number of dice: " + dice);
+                 if(dice == 1){ 
+                      System.out.println("User Start first ");
+                 }
+                 else {
+                   System.out.println("Computer Start first");
+                 }
+		                
                 Scanner scanner = new Scanner(System.in);
 
                 System.out.println("Where would you like to play? (1-9) ");
