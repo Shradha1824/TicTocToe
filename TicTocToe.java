@@ -60,7 +60,76 @@ public class TicTocToe {
                 System.out.println(board[1][0] + "|" + board[1][1] + "|" + board[1][2]);
                 System.out.println("-+-+-");
                 System.out.println(board[2][0] + "|" + board[2][1] + "|" + board[2][2]);
+                
+         private static boolean isSpaceAvailable(char[][] board, int position) {
 
+                        switch(position) {
+                        case 1:
+                                if (board[0][0] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                        case 2:
+                                if (board[0][1] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                        case 3:
+                                if (board[0][1] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                        case 4 :
+                                if (board[0][1] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                        case 5:
+                                if (board[0][1] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                         case 6:
+                                if (board[0][1] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                        case 7:
+                                if (board[0][1] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                        case 8:
+                                if (board[0][1] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                        case 9:
+                                if (board[0][1] == ' ') {
+                                        return true;
+                                }
+                                else {
+                                        return false;
+                                }
+                        default:
+                                return false;
+                        }
+                }
+        }
 
-		}
-           }
